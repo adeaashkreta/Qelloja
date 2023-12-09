@@ -1,0 +1,32 @@
+/* Your existing styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+
+  image{
+    height: 30px;
+    width: 40%;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  /* Additional styling as needed */
+  

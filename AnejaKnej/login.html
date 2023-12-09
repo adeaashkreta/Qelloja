@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <script src="login.js" defer></script>
+  <title>Login</title>
+</head>
+<body>
+  
+</body>
+</html>
+<section>
+  <div class="login-container">
+    <h2>Login to Continue</h2>
+    <form id="loginForm" onsubmit="login(event)">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</section>
+
+<section id="product-details">
+  <h2>Product Name</h2>
+  <img src="selected-product.jpg" alt="Selected Product">
+  <p>Description of the product goes here.</p>
+  <p>Current Bid: $100</p>
+  <form id="bidForm" onsubmit="submitBid(event)">
+    <label for="bidAmount">Your Bid:</label>
+    <input type="number" id="bidAmount" name="bidAmount" placeholder="Enter your bid" required>
+    <button type="submit">Place Bid</button>
+  </form>
+</section>
